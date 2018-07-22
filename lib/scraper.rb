@@ -26,6 +26,10 @@ class Scraper
     }
     doc
   end
+  
+  def get_courses
+    get_page
+  end
 end
 
 
